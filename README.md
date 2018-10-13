@@ -4,9 +4,9 @@ Repo for the Font.Awesome NuGet packages. **Please note that these packages and 
 
 Packages are separated by type:
 
-- CSS - your "standard" pre-compiled CSS version.
-- Sass - same font files, but with Sass source files. You will need to compile the Sass files as your project dictates.
-- Less - same font files, but with Less source files. You will need to compile the Less files as your project dictates.
+- [Font.Awesome](https://www.nuget.org/packages/Font.Awesome/) - your "standard" pre-compiled CSS version, plus the JavaScript shims.
+- [Font.Awesome.Sass](https://www.nuget.org/packages/Font.Awesome.Sass/) - same font files, but with Sass source files. You will need to compile the Sass files as your project dictates.
+- [Font.Awesome.Less](https://www.nuget.org/packages/Font.Awesome.Less/) - same font files, but with Less source files. You will need to compile the Less files as your project dictates.
 
 All packages include Font Awesome **Free** icons - I suggest creating your own packages and hosting on [MyGet](https://www.myget.org/) or similar if you need Pro icons. I try to keep the package version number in-sync with the Font Awesome release version, when possible.
 
