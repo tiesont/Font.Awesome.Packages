@@ -7,8 +7,11 @@ Packages are separated by type:
 - [Font.Awesome](https://www.nuget.org/packages/Font.Awesome/) - your "standard" pre-compiled CSS version, plus the JavaScript shims.
 - [Font.Awesome.Sass](https://www.nuget.org/packages/Font.Awesome.Sass/) - same font files, but with Sass source files. You will need to compile the Sass files as your project dictates.
 - [Font.Awesome.Less](https://www.nuget.org/packages/Font.Awesome.Less/) - same font files, but with Less source files. You will need to compile the Less files as your project dictates.
+- [Font.Awesome.AspDotNetCore](https://www.nuget.org/packages/Font.Awesome.AspDotNetCore/) - everything you'll find the manual download zip archive, copied to the `wwwroot/lib/fontawesome` folder
 
-All packages include Font Awesome **Free** icons - I suggest creating your own packages and hosting on [MyGet](https://www.myget.org/) or similar if you need Pro icons. I try to keep the package version number in-sync with the Font Awesome release version, when possible.
+All packages include Font Awesome **Free** icons - I suggest creating your own packages and hosting on [MyGet](https://www.myget.org/) or similar if you need Pro icons. Please note that hosting the **Pro** icons on a public NuGet package is a violation of the license terms - **don't do it.**
+
+I try to keep the package version number in-sync with the Font Awesome release version, when possible.
 
 See https://fontawesome.com/how-to-use for help getting started, after you've added one of the above packages. I'll try to add some entries to the wiki here for suggestions for using the Sass and Less versions, at some point.
 
@@ -23,4 +26,4 @@ If you would like to customize where the files of package are placed you can do 
 </ItemGroup>
 ```
 
-The `Link` attribute of the `None` element indicates where the files will be placed. Change the directory name `assets` to whatever you would like.
+The `Link` attribute of the `None` element indicates where the files will be placed. Change the directory name `assets` to whatever you would like. Please note, whatever path you define will be relative to your application's project root.
