@@ -7,7 +7,7 @@ Packages are separated by type:
 - [Font.Awesome](https://www.nuget.org/packages/Font.Awesome/) - your "standard" pre-compiled CSS version, plus the JavaScript shims.
 - [Font.Awesome.Sass](https://www.nuget.org/packages/Font.Awesome.Sass/) - same font files, but with Sass source files. You will need to compile the Sass files as your project dictates.
 - [Font.Awesome.Less](https://www.nuget.org/packages/Font.Awesome.Less/) - same font files, but with Less source files. You will need to compile the Less files as your project dictates.
-- [Font.Awesome.AspDotNetCore](https://www.nuget.org/packages/Font.Awesome.AspDotNetCore/) - everything you'll find the manual download zip archive, copied to the `wwwroot/lib/fontawesome` folder
+- [Font.Awesome.AspDotNetCore](https://www.nuget.org/packages/Font.Awesome.AspDotNetCore/) - everything you'll find in the manual download's zip archive, copied to the `wwwroot/lib/fontawesome` folder
 
 All packages include Font Awesome **Free** icons - I suggest creating your own packages and hosting on [MyGet](https://www.myget.org/) or similar if you need Pro icons. Please note that hosting the **Pro** icons on a public NuGet package is a violation of the license terms - **don't do it.**
 
